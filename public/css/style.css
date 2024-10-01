@@ -1,0 +1,228 @@
+/* Home page styles*/
+
+.carousel-item {
+	height: 800px; /* Adjust the height as needed */
+}
+
+.carousel-item img {
+	height: 100%;
+	object-fit: cover;
+	width: 100%;
+}
+/* Header sticky but not small screen*/
+
+@media (min-width: 992px) {
+	.custom-sticky {
+		position: sticky;
+		top: 0;
+		z-index: 2;
+	}
+}
+#featuredItems {
+	margin: 30px;
+	padding: 10px;
+}
+
+body {
+	background-color: black !important;
+	color: white !important;
+	height: 100%;
+	margin: 0;
+}
+
+/* Card styles */
+
+.card-img-top {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.black-card {
+	background-color: black;
+	color: white;
+	background-color: black;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2),
+		0 6px 20px 0 rgba(255, 255, 255, 0.19);
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+/* Cart ejs styling*/
+.product-card {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: 0.3s;
+	border-radius: 5px;
+}
+.product-card:hover {
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.product-img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+.quantity-btn {
+	width: 36px;
+	height: 36px;
+	padding: 0;
+	line-height: 1.2;
+}
+.quantity-text {
+	display: inline-block;
+	min-width: 36px;
+	text-align: center;
+}
+
+/* Signup Page */
+.form-signup {
+	max-width: 500px;
+	padding: 20px;
+	margin: auto;
+}
+.form-signup img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.form-control {
+	margin-bottom: 10px;
+}
+
+.form-signup input[type='email'],
+.form-signup input[type='password'] {
+	color: #ffffff;
+	background-color: #0a0707;
+	border: 1px solid #372222;
+}
+.form-signup input::placeholder {
+	color: #8b8b8b;
+	opacity: 1;
+}
+.form-control,
+.form-select {
+	color: #ffffff;
+	background-color: #0a0707;
+	border: 1px solid #372222;
+}
+
+.form-control::placeholder,
+.form-select::placeholder {
+	color: #ffffff;
+	opacity: 1;
+}
+
+html,
+body {
+	height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+}
+.content {
+	flex: 1;
+}
+.footer {
+	background-color: black;
+	color: white;
+}
+
+.heading-style {
+	font-size: 3rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #4b0082;
+	letter-spacing: 2px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	background: linear-gradient(135deg, #5a5102, #afa974);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+/* Cart container styles */
+.container {
+	margin-top: 20px;
+}
+
+/* Card styles */
+.card {
+	border: none;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styles */
+.card-img-top {
+	width: 100%;
+	height: 200px; /* Fixed height */
+	object-fit: cover; /* Makes sure the image covers the area */
+}
+
+/* Right-hand pane styles */
+.total-pane {
+	padding: 20px;
+	background-color: #f8f9fa;
+	border-left: 2px solid #dee2e6;
+}
+
+.total-pane h5,
+.total-pane h2 {
+	margin-bottom: 10px;
+}
+
+/* Cart container styles */
+.container {
+	margin-top: 20px;
+}
+
+/* Card styles */
+.card {
+	background-color: #000000; /* Black background */
+	color: white; /* White text */
+	border: none;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Card title and text colors */
+.card-title {
+	color: #ffffff; /* White text for title */
+}
+
+.card-text {
+	color: #ffffff; /* White text for price */
+}
+
+/* Right-hand pane styles */
+.total-pane {
+	padding: 20px;
+	background-color: #000000; /* Light background for totals */
+	border-left: 2px solid #dee2e6;
+}
+
+.total-pane h5,
+.total-pane h2 {
+	margin-bottom: 10px;
+	color: #ffffff; /* Black text for total pane */
+}
+
+/* Button styles */
+.add-to-cart {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #44596f; /* Button color */
+	color: white; /* Button text color */
+}
+
+.remove-from-cart {
+	margin-left: 15px;
+}

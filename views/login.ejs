@@ -1,0 +1,29 @@
+<%- include('partials/header') %>
+<form class="form-signup" action="/login" method="POST">
+	<img
+		class="mb-4"
+		src="/images/AK jewelers.png"
+		alt=""
+		width="144"
+		height="114" />
+	<h1 class="h3 mb-3 fw-normal heading-style">Login</h1>
+	<input
+		type="email"
+		class="form-control mb-3"
+		id="floatingInput"
+		name="username"
+		placeholder="Email address"
+		autocomplete="off" />
+	<input
+		type="password"
+		class="form-control mb-3"
+		id="floatingPassword"
+		name="password"
+		placeholder="Password"
+		autocomplete="off" />
+	<br />
+	<h5>You don't have an account? Please <a href="/register">Sign up here</a></h5>
+	<br />
+	<button class="btn btn-primary w-100 py-2" type="submit">Login</button>
+</form>
+<%- include('partials/footer') %>
